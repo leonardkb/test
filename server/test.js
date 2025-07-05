@@ -27,7 +27,7 @@ app.use(express.json());
 //     console.error("Error connecting to PostgreSQL database:", err);
 // });
 
-app.post("/click", async (req,res)=>{
+app.post("https://test-1-qt6p.onrender.com/click", async (req,res)=>{
 
     const {count} = req.body;
      console.log("button clicked , count:", count);

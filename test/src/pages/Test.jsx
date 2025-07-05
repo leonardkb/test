@@ -14,7 +14,7 @@ function Test (){
 
                 try {
 
-                    const res = await fetch("http://localhost:8000/click", {
+                    const res = await fetch("https://test-k5rc.onrender.com/click", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json"
